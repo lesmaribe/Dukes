@@ -1,0 +1,10 @@
+#ignore folders
+*/target/*
+*/.metadata/*
+*/RemoteSystemsTempFiles/*
+
+#ignore files
+.settings
+.classpath
+.settings/*
+.tern-project

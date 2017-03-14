@@ -1,0 +1,45 @@
+<div id="books" class="list-group">
+	<h2 class="text-center">Book Catalogue</h2>
+	<hr class="star-primary">
+	<div class="row">
+		<div class="col-xs-4"></div>
+		<div class="col-xs-8">
+			<button class="btn btn-primary col-xs-3" ng-click="purchase()">Purchase</button>
+			<div class="col-xs-1"></div>
+			<button class="btn btn-primary col-xs-3" ng-click="emptyCart()">Empty Cart</button>
+		</div>
+	</div>
+	<br>
+	<div class="row" ng-repeat="book in books">
+		<div class="col-sm-2">
+		</div>
+		
+		<div class="col-xs-2">
+			<div class="list-group">
+				<a href="#" class="group list-group-image">
+    				<img src="images/view.png" class="img-responsive" alt="">
+    			</a>
+			</div>
+		</div>
+		
+		<div class="col-sm-6">
+			<b>Book: </b><i>{{book.id + ' - ' + book.title}}</i><br>
+			<b>Publication Year:</b> <i>{{book.year}}</i><br>
+			<b>Description:</b> <i>{{book.description}}</i><br><br>
+			<b>Author: </b><i>{{book.author_surname + ', ' + book.author_name + ' ' + book.author_title}}</i> <br>
+			<b>Copies: </b><i>{{book.copies}}</i><br>
+			<b>Price: </b><i>R{{book.price}}</i><br><br>
+			<div class="col-xs-12 col-md-6">
+               <button class="btn btn-success" ng-click="addtocart(book)">Add to cart</button>
+            </div>
+		</div>
+	</div>
+	
+	<br>
+	<div class="row">
+		<div class="col-xs-4"></div>
+		<div class="col-xs-6">
+			<button class="btn btn-primary col-xs-2" ng-click="back()">Back</button>
+		</div>
+	</div>
+</div>

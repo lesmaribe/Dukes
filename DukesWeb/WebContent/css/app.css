@@ -1,0 +1,160 @@
+/**
+ * @author LESETJA
+ * @email lesmaribe@gmail.com
+ */
+ 
+.topheader{
+	background: none repeat scroll 0 0 #638400 !important;
+}
+.topheader > div{
+	background: none repeat scroll 0 0 #638400 !important;
+	color: #DDDDDD;
+	font-size: 10px;
+	height: auto;
+	margin: 0 auto;
+	margin-left: 50%;
+	min-height: 4px 0;
+	padding: 4px 0;
+	width: 980 px;
+}
+#logo{
+	background-color: #FFFFFF !important; 
+}
+body{
+	background-color: #fafafa !important;
+}
+.nav-custom{
+	float: right !important;
+	margin-top: 30px;
+}
+.myheaders{
+	vertical-align: bottom !important;
+	padding-bottom: 0px;
+	margin-bottom: 20px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #638400
+		), color-stop(1, #638400));
+	background: -moz-linear-gradient(center top, #337AB7 5%, #00557F 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#337AB7',
+		endColorstr='#638400');
+	background-color: #638400;
+	color: #FFFFFF;
+	font-size: 13px;
+	font-weight: bold;
+	border-left: 0px solid #337AB7;
+}
+
+.mypoor{
+	background-color: #e21d44;
+	color: #FFFFFF;
+	font-size: 13px;
+	font-weight: bold;
+	border-left: 20px solid #fafafa;
+	border-right: 20px solid #fafafa;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+
+.myaverage{
+	background-color: #337AB7;
+	color: #FFFFFF;
+	font-size: 13px;
+	font-weight: bold;
+	border-left: 20px solid #fafafa;
+	border-right: 20px solid #fafafa;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+.mygood{
+background-color: #638400;
+	color: #FFFFFF;
+	font-size: 13px;
+	font-weight: bold;
+	border-left: 20px solid #fafafa;
+	border-right: 20px solid #fafafa;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-bottom: 10px;	
+}
+hr.star-primary {
+  border-color: #638400;
+}
+hr.star-primary:after {
+  background-color: white;
+  color: #638400;
+}
+hr.star-primary:after {
+  content: "\f005";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 2em;
+  padding: 0 0.25em;
+}
+hr.star-primary {
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  text-align: center;
+  max-width: 250px;
+  margin: 25px auto 30px;
+}
+
+.mydetails > label{
+	vertical-align: top !important;
+}
+
+/*dash-board style*/
+.mydashBoard * {
+  z-index: 2;
+}
+
+.mydashBoard .menu-item {
+  margin: 0 0 15px;
+  right: 0;
+}
+.mydashBoard .menu-item .menu-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.mydashBoard .menu-item .menu-link .caption {
+  background: rgba(24, 188, 156, 0.9);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+.mydashBoard .menu-item .menu-link .caption:hover {
+  opacity: 1;
+}
+.mydashBoard .menu-item .menu-link .caption .caption-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}
+.mydashBoard .menu-item .menu-link .caption .caption-content i {
+  margin-top: -12px;
+}
+.mydashBoard .menu-item .menu-link .caption .caption-content h3,
+.mydashBoard .menu-item .menu-link .caption .caption-content h4 {
+  margin: 0;
+}
+.custom-text {
+	background: #2C3E50;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+}
