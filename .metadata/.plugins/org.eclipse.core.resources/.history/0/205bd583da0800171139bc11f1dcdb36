@@ -1,0 +1,5 @@
+package za.co.lesetja.dukesapi.dto;
+
+public class BookDTO {
+
+}

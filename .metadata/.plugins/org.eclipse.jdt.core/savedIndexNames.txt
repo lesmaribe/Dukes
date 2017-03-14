@@ -1,0 +1,23 @@
+INDEX VERSION 1.127+C:\Users\User\Desktop\Projects\Dukes\.metadata\.plugins\org.eclipse.jdt.core
+924468408.index
+3273784186.index
+56597819.index
+1753283041.index
+2143505834.index
+1963854087.index
+2940086946.index
+1099618940.index
+3486495239.index
+1315200265.index
+1448087735.index
+1665572595.index
+282802218.index
+1295690606.index
+714156685.index
+3259093463.index
+2092153357.index
+1839899457.index
+2739260532.index
+2027888407.index
+3038224025.index
+2895942126.index
