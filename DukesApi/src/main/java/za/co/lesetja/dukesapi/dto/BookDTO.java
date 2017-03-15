@@ -1,6 +1,8 @@
 package za.co.lesetja.dukesapi.dto;
 
+import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
+import org.codehaus.jackson.annotate.JsonProperty;
 
 @XmlRootElement
 public class BookDTO {
@@ -22,6 +24,7 @@ public class BookDTO {
 	/**
 	 * @return int
 	 */
+	@XmlElement(required = true)
 	public int getId() {
 		return id;
 	}
@@ -36,6 +39,8 @@ public class BookDTO {
 	/**
 	 * @return String
 	 */
+	@XmlElement(name = "author_name")
+	@JsonProperty("author_name")
 	public String getAuthorName() {
 		return authorName;
 	}
@@ -50,6 +55,8 @@ public class BookDTO {
 	/**
 	 * @return String
 	 */
+	@XmlElement(name = "author_surname")
+	@JsonProperty("author_surname")
 	public String getAuthorSurname() {
 		return authorSurname;
 	}
@@ -64,6 +71,8 @@ public class BookDTO {
 	/**
 	 * @return String
 	 */
+	@XmlElement(name = "author_title")
+	@JsonProperty("author_title")
 	public String getAuthorTitle() {
 		return authorTitle;
 	}

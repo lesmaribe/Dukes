@@ -1,0 +1,9 @@
+package za.co.lesetja.dukesapi.dto;
+
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
+public class BookDTO {
+
+	private int id;
+}

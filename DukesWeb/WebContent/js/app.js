@@ -7,6 +7,7 @@ var app = angular.module('dukes', ['ngRoute', 'dukes.homemodule', 'dukes.bookcat
 
 app.run(function($rootScope){
 	$rootScope.cart = [];
+	$rootScope.urlBase = 'http://localhost:8080/DukesWeb/rest/book/';
 	
 	$rootScope.back = function(){
 		 window.history.back();
