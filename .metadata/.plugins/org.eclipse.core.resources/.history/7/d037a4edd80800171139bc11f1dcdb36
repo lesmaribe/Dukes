@@ -1,5 +1,0 @@
-package za.co.lesetja.dukesapi.api;
-
-public interface BookAPI {
-
-}
