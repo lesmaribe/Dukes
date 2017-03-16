@@ -1,0 +1,33 @@
+package za.co.lesetja.dukesservices.serv;
+
+import java.util.List;
+
+import za.co.lesetja.dukesapi.api.BookAPI;
+import za.co.lesetja.dukesapi.dto.BookDTO;
+
+public class BookIMP implements BookAPI{
+
+	@Override
+	public List<BookDTO> getBooks() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public BookDTO getBook(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public BookDTO createBook(BookDTO book) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public BookDTO updateBook(BookDTO book) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}
