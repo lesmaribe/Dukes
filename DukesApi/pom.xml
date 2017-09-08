@@ -4,6 +4,7 @@
 	<groupId>DukesApi</groupId>
 	<artifactId>DukesApi</artifactId>
 	<version>1.0.0</version>
+	<!--  testing eGit -->
 	<build>
 		<plugins>
 			<plugin>
